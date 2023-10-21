@@ -48,3 +48,36 @@ const myFunction = function() {
 // To find the type of data we use
 
 console.log(typeof heros);
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Two types of memory
+
+// 1. Stack (Primitive)  When we declare variable in stack memory we get a copy of it
+
+// 2. Heap (Non- primitive)  In heap we get a original value reference from memory.
+
+
+let myGithubName = "ASPCODES"
+
+let anotherName = myGithubName
+anotherName = "Apcode"
+
+console.log(myGithubName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com" , 
+    upiId: "user@paytm"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Aditya@google.com"
+
+console.log(userOne);
+console.log(userTwo);
