@@ -1,1 +1,1 @@
-# Javascript-basics
+# Javascript-basics to advanced
