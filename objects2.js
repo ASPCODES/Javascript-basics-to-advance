@@ -103,3 +103,39 @@ console.log(tinderUser.hasOwnProperty('id'));
 console.log(tinderUser.hasOwnProperty('name'));
 
 console.log(tinderUser.propertyIsEnumerable('id'));
+
+
+// ****************** De-Structuring And Intro to JSON *************************
+
+const course = {
+    courseName: "JS in Hindi",
+    price: 999,
+    courseInstructor: "Hitesh choudhary"
+}
+
+const {courseInstructor: instructor} = course   // Here we use object de-structure or doing de-structuring.
+
+console.log(instructor);
+
+// console.log(courseInstructor);
+// console.log(courseName);
+// console.log(price);
+
+
+ /* JSON API */     //It is also an Object.
+
+
+// OBJECT API 
+
+// {
+//     "name": "Aditya Singh",
+//     "Email": "abc2gmail.com"
+// }
+
+// ARRAY API
+
+[
+    {},
+    {},
+    {}
+]
